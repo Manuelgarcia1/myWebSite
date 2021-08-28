@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promo - Antonia</title>
+    <meta name="description" content="Encontra las mejores promos del día y al mejor precio en Antonia Restaurant">
+    <meta name="keywords" content="promo, día, precio">
+    <!-- tipografia titulo restaurant y navbar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!-- tipografia para descripcion index -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-newgrey">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-3" href="../index.html">Antonia Restaurant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav readerfont justify-content-center">
+              <a class="nav-link" aria-current="page" href="carta.html">Carta</a>
+              <a class="nav-link active" href="promo.html">Promo</a>
+              <a class="nav-link" href="miPedido.html">Mi pedido</a>
+              <a class="nav-link" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Promos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>Se agrego al carrito con éxito</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <section class="seccionPromo mt-3">
+      <h1>Promos del día</h1>
+      <article class="container">
+        <div class="card">
+          <img src="../assets/promosRestaurant/hamburguesaPromo.jpg" alt="hamburguesa">
+          <h4>Xxl Burguer</h4>
+          <p>Exquisita hamburguesa con rodajas de tomate, lechuga, queso cheddar fundido y tocino</p>
+          <h5>Precio: $550</h5>
+          <button type="button" class="btn btn-primary bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             Agregar
+          </button>
+        </div>
+        <div class="card">
+          <img src="../assets/promosRestaurant/fideosPromo.jpg" alt="fideo">
+          <h4>Fideos caseros</h4>
+          <p>Plato de pasta italiana con cebolla caramelizada y distintas especias, para un sabor unico e inigualable</p>
+          <h5>Precio: $850</h5>
+          <button type="button" class="btn btn-primary bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Agregar
+         </button>
+        </div>
+        <div class="card">
+          <img src="../assets/promosRestaurant/alitasPromo.jpg" alt="pollo">
+          <h4>Alitas de pollo</h4>
+          <p>Alitas de pollo caramelizadas con barbacoa, hechas al horno y condimentadas con orégano y pimenton</p>
+          <h5>Precio: $700</h5>
+          <button type="button" class="btn btn-primary bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Agregar
+         </button>
+        </div> 
+      </article>
+    </section>
+    <footer>
+      <div class="container-body">
+        <div class="column1">
+          <h4>Mas información de nuestro restaurant:</h4>
+          <p>Nuestro restaurant se encuentra ubicado en la avenida Sgto Cabral 256, en el que contamos con mesas para que reserves y disfrutes de una buena comida, brindandote una buena antención.</p>
+        </div>
+        <div class="column2">
+          <h4>información contactos:</h4>
+          <h5>+542314464231<h5>
+          <h5>Antoniarestaurant@outlook.es</h5>
+        </div>
+      </div>
+      <div class="container-footer">
+        <div class="copyright">
+          <h4>© 2021 Todos los Derechos Reservados</h4>
+        </div>
+        <div class="information">
+          <h5>Antonia Restaurant</h5>
+        </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
